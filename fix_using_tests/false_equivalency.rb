@@ -15,6 +15,8 @@ def selection(num)
      return "YUM YUM MUNCH MUNCH MUNCH"
   elsif num.to_i == 2
      return "HAM HAM HAM IN MY TUMMY"
+     binding.pry
+     puts "hello"
   end
 end
 
